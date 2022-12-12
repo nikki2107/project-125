@@ -1,5 +1,5 @@
 from flask import Flask,jsonify,request;
-from classifier import getpredictions;
+from classifier import getprediction;
 app= Flask(__name__);
 @app.route("/predict-alphabet",methods=['POST'])
 
